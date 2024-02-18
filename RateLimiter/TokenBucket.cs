@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RateLimiter
 {
-    public sealed class TokenBucket
+    public class TokenBucket : ITokenBucket
     {
         public TokenBucket(int rate = 10, int bucketSize = 3)
         {
