@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter", "RateLimiter\RateLimiter.csproj", "{D70A4332-6DD5-4DDC-BECF-854E3FDD2AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimiter", "RateLimiter\RateLimiter.csproj", "{D70A4332-6DD5-4DDC-BECF-854E3FDD2AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.API", "RateLimiter.API\RateLimiter.API.csproj", "{91982DDB-9B97-4D91-BECD-8D7C301283E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D70A4332-6DD5-4DDC-BECF-854E3FDD2AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D70A4332-6DD5-4DDC-BECF-854E3FDD2AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D70A4332-6DD5-4DDC-BECF-854E3FDD2AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91982DDB-9B97-4D91-BECD-8D7C301283E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91982DDB-9B97-4D91-BECD-8D7C301283E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91982DDB-9B97-4D91-BECD-8D7C301283E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91982DDB-9B97-4D91-BECD-8D7C301283E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
